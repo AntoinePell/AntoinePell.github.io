@@ -1,5 +1,4 @@
 .detail { 
-    padding: 20px; 
     background-color: var(--background-2);
 }
 
@@ -13,7 +12,7 @@
 .detail {
   max-width: 100%;
   overflow-x: hidden;
-  max-height: 65vh;
+  max-height: 80vh;
   overflow-y: auto;
   position: relative;
   
@@ -23,7 +22,6 @@
   border: 2px solid var(--border);
   border-radius: 12px;
   overflow: hidden;
-
 }
 
 /* Le bouton reste toujours en haut */
@@ -51,25 +49,13 @@
   padding: 10px;
 }
 
-.content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.part-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 
 .pdf-wrapper {
   width: 95%;
   margin: 0 auto;
   aspect-ratio: 18 / 9; /* Tu peux ajuster selon tes besoins */
   position: relative;
-  height: 60vh;
+  height: 65vh;
 
 }
 

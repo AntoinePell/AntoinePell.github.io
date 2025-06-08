@@ -1,6 +1,5 @@
 import { Component, ElementRef, EventEmitter, Input, OnChanges, Output, SimpleChanges, ViewChild, } from '@angular/core';
 import { Project } from '../../models/project.model';
-import { Part } from '../../models/part.model';
 import { CommonModule } from '@angular/common';
 import { SafePipe } from '../../safe-pipe';
 
@@ -12,7 +11,6 @@ import { SafePipe } from '../../safe-pipe';
 })
 
 export class ProjectDetail implements OnChanges {
-  pdfUrl = 'assets/docs/LORD_details.pdf';
 
   @Input() project: Project | null = null;
   @Output() close = new EventEmitter<void>();
