@@ -1,4 +1,17 @@
-<div>
-    <p>{{ name }}</p>
-    <img src="assets/images/Lord_screen2.png" alt="Image du projet" />
+<div class="preview_container">
+  <div class="content">
+    <div class="preview">
+      {{ project.name }}
+    </div>
+    
+    <img src="assets/images/Lord_screen2.png" alt="Image du projet" class="preview-img"/>
+    <div class="tag-list" *ngIf="project?.tags?.length">
+      <span class="tag" *ngFor="let tag of project.tags">
+        {{ tag }}
+      </span>
+    </div>
+  </div>
+  <button class="arrow_button" (click)="onClick()">
+    ➤
+  </button>
 </div>

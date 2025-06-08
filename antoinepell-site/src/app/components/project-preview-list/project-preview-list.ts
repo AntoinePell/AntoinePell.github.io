@@ -1,17 +1,30 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { ProjectPreview } from '../project-preview/project-preview';
+import { ProjectDetail } from '../project-detail/project-detail';
 import { CommonModule } from '@angular/common';
+import { Project } from '../../models/project.model';
+import { ChangeDetectorRef } from '@angular/core';
+import projectData from '../../models/projects.json';
+
 
 @Component({
   selector: 'app-project-preview-list',
-  imports: [CommonModule, ProjectPreview],
+  standalone: true,
+  imports: [CommonModule, ProjectPreview, ProjectDetail],
   templateUrl: './project-preview-list.html',
   styleUrl: './project-preview-list.css'
 })
 export class ProjectPreviewList {
-  projects = [
-      { name: 'Projet Alpha' },
-      { name: 'Projet Beta' },
-      { name: 'Projet Gamma' }
-    ];
+  constructor(private cdr: ChangeDetectorRef) {}
+
+
+  projects: Project[] = projectData as Project[]; 
+
+  selectedProject: Project | null = null;
+
+
+  resetAndSelect(project: Project) {
+    this.selectedProject = project;
+    ;
+  }
 }

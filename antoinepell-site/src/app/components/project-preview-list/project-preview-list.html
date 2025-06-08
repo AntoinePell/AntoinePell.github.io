@@ -1,11 +1,18 @@
-<div>
-  <h2>Liste des projets</h2>
+<div class="container" [class.shifted]="selectedProject">
+  <div class="list-wrapper">
+    <div class="list">
+      <app-project-preview
+        *ngFor="let project of projects"
+        [project]="project"
+        (selected)="resetAndSelect(project)">
+      </app-project-preview>
+    </div>
+  </div>
 
-  <app-project-preview
-    *ngFor="let project of projects"
-    [name]="project.name">
-  </app-project-preview>
-
-    <h2>Fin de la liste des projets</h2>
-
+  <div class="details" *ngIf="selectedProject">
+    <app-project-detail 
+      [project]="selectedProject"
+      (close)="selectedProject = null">
+    </app-project-detail>
+  </div>
 </div>

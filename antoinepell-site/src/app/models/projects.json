@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Projet Lord V1",
+    "tags": ["jeu", "iOS", "graphismes"],
+    "partList": [
+      { "description": "Écran principal du jeu", "imageUrl": "assets/images/Lord_screen2.png" },
+      { "description": "Système de combat dynamique", "imageUrl": "assets/images/Lord_screen1.png" },
+      { "description": "Système de combat dynamique1", "imageUrl": "assets/images/Lord_screen1.png" },
+      { "description": "Système de combat dynamique2", "imageUrl": "assets/images/Lord_screen1.png" }
+    ],
+    "conclusion": "Projet abouti avec de beaux visuels et une mécanique fluide."
+  },
+  {
+    "name": "Projet Simulateur de rebonds",
+    "tags": ["simulation", "physique"],
+    "partList": [
+      { "description": "Algorithme de détection de collisions", "imageUrl": "assets/images/Lord_screen2.png" },
+      { "description": "Affichage temps réel des rebonds" }
+    ],
+    "conclusion": "Permet de visualiser et d’analyser le comportement de rebonds d’objets."
+  },
+  {
+    "name": "Projet Simulateur de particules",
+    "tags": ["moteur", "graphisme"],
+    "partList": [
+      { "description": "Effets visuels des particules", "imageUrl": "assets/images/Lord_screen2.png" },
+      { "description": "Interaction utilisateur avec le flux de particules" }
+    ],
+    "conclusion": "Moteur graphique efficace pour créer des effets dynamiques."
+  },
+  {
+    "name": "Projet jeu iOS Legacy",
+    "tags": ["jeu", "Swift", "legacy"],
+    "partList": [
+      { "description": "Interface utilisateur avec SpriteKit", "imageUrl": "assets/images/Lord_screen2.png" },
+      { "description": "Gestion des états de jeu" }
+    ],
+    "conclusion": "Une base de code solide réutilisable pour d’autres prototypes."
+  },
+  {
+    "name": "Projet trading",
+    "tags": ["finance", "machine learning"],
+    "partList": [
+      { "description": "Analyse des données EUR/USD", "imageUrl": "assets/images/Lord_screen2.png" },
+      { "description": "Réseau de neurones pour prédire les tendances" }
+    ],
+    "conclusion": "Un projet expérimental combinant data science et finance."
+  },
+  {
+    "name": "Projet jeu iOS Flash",
+    "tags": ["jeu", "rapide", "arcade"],
+    "partList": [
+      { "description": "Gameplay basé sur des réflexes", "imageUrl": "assets/images/Lord_screen2.png" },
+      { "description": "Système de niveaux courts et dynamiques" }
+    ],
+    "conclusion": "Concept de mini-jeu rapide et addictif inspiré des jeux flash."
+  }
+]

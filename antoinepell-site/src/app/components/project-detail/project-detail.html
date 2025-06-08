@@ -1,0 +1,29 @@
+<div *ngIf="project as p" class="container">
+  <div class="header">
+    <h2>{{ p.name }}</h2>
+    <button (click)="close.emit()">Fermer</button>
+  </div>
+
+  <div class="detail" #scrollableContainer>
+
+    <div class="content">
+
+    <div class="pdf-wrapper">
+      <iframe
+        [src]="pdfUrl | safe"
+        class="pdf-container">
+      </iframe>
+    </div>
+
+      
+      <!-- <div class="part-list">
+        <div *ngFor="let part of p.partList" class="part">
+          <p>{{ part.description }}</p>
+          <img *ngIf="part.imageUrl" [src]="part.imageUrl" alt="Image de la partie" />
+        </div>
+      </div>
+      <p><strong>Conclusion :</strong> {{ p.conclusion }}</p> -->
+
+    </div>
+  </div>
+</div>
