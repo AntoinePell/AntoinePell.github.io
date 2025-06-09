@@ -3,12 +3,6 @@
 }
 
 
-.part img {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-
 .detail {
   max-width: 100%;
   overflow-x: hidden;
@@ -45,9 +39,6 @@
 
 
 
-.content {
-  padding: 10px;
-}
 
 
 .pdf-wrapper {
@@ -55,8 +46,6 @@
   margin: 0 auto;
   aspect-ratio: 18 / 9; /* Tu peux ajuster selon tes besoins */
   position: relative;
-  height: 65vh;
-
 }
 
 .pdf-container {

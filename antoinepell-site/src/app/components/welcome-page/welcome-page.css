@@ -1,6 +1,6 @@
 .welcome-container {
   display: flex;
-  height: calc(100vh - 80px); /* suppose un header de 80px */
+  height: calc(100vh - 80px - 20px);
   box-sizing: border-box;
   padding: 40px;
   gap: 40px;

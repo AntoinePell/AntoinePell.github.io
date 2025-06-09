@@ -1,3 +1,7 @@
+.body {
+  background-color: var(--background-header);
+}
+
 .page-header {
   background-color: #f5f5f5;
   padding: 10px;

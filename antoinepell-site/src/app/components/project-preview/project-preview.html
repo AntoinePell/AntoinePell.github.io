@@ -4,7 +4,7 @@
       {{ project.name }}
     </div>
     
-    <img src={{project.preview_image}} alt="Image du projet" class="preview-img"/>
+    <img [src]="project.preview_image" alt="Image du projet" class="preview-img"/>
     <div class="tag-list" *ngIf="project?.tags?.length">
       <span class="tag" *ngFor="let tag of project.tags">
         {{ tag }}
