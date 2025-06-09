@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { ProjectPreviewList } from './components/project-preview-list/project-preview-list';
+import { RouterOutlet } from '@angular/router';
+import { GlobalHeader } from './components/global-header/global-header';
 
 @Component({
   selector: 'app-root',
-  imports: [ProjectPreviewList],
+  imports: [GlobalHeader, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
