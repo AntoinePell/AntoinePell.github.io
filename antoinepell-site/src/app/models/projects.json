@@ -15,14 +15,14 @@
     "name": "Projet trading - depuis 2 mois",
     "tags": ["bot", "C++", "dlib", "sfml", "Python"],
     "pdf_name": "assets/docs/TRADING_details.pdf",
-    "preview_image": "assets/images/LEGACY_preview.png"
+    "preview_image": "assets/images/TRADING_preview.png"
 
   },
   {
     "name": "Jeu iOS Flash - récent",
     "tags": ["jeu", "Swift", "arcade"],
     "pdf_name": "assets/docs/FLASH_details.pdf",
-    "preview_image": "assets/images/LEGACY_preview.png"
+    "preview_image": "assets/images/FLASH_preview.png"
 
   }
 ]

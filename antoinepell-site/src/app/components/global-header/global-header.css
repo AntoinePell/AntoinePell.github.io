@@ -1,13 +1,9 @@
-.body {
-  background-color: var(--background-header);
-}
-
 .page-header {
   background-color: #f5f5f5;
   padding: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: 30;
   flex-shrink: 0;
+  background-color: var(--background-header);
 }
 
 .nav-buttons {
@@ -20,13 +16,14 @@ button {
   padding: 10px 20px;
   border-radius: 30px;
   border: none;
-  background-color: #007acc;
-  color: white;
+  border: 2px solid var(--border);
+  background-color: var(--background);  color: white;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
+  color:var(--text);
 }
 
 button:hover {
-  background-color: #005fa3;
+  background-color:var(--button_hover);
 }

@@ -44,7 +44,7 @@
 }
 
 .arrow_button:hover {
-  background-color: #ddd;
+  background-color:var(--button_hover);
 }
 
 .tag-list {
