@@ -6,20 +6,20 @@
     "preview_image": "assets/images/LORD_preview.png"
   },
   {
-    "name": "Jeu iOS - depuis août 2024",
+    "name": "Jeu iOS - 2024 - 2025 (pause)",
     "tags": ["jeu", "Swift", "node.js", "PostgreSQL", "Java"],
     "pdf_name": "assets/docs/LEGACY_details.pdf",
     "preview_image": "assets/images/LEGACY_preview.png"
   },
   {
-    "name": "Projet trading - depuis 2 mois",
+    "name": "Projet trading - avril mai 2025",
     "tags": ["bot", "C++", "dlib", "sfml", "Python"],
     "pdf_name": "assets/docs/TRADING_details.pdf",
     "preview_image": "assets/images/TRADING_preview.png"
 
   },
   {
-    "name": "Jeu iOS Flash - récent",
+    "name": "Jeu iOS Flash - juin 2024 à maintenant",
     "tags": ["jeu", "Swift", "arcade"],
     "pdf_name": "assets/docs/FLASH_details.pdf",
     "preview_image": "assets/images/FLASH_preview.png"
